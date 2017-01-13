@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="message">
+        <EditTextPreference android:title="@string/text" android:key="textMessage" android:summary="@string/contentMessage" />
+        <CheckBoxPreference android:title="@string/gps" android:key="sendGps" android:summary="@string/contentGPS" />
+        <!--<EditTextPreference android:title="@string/phoneCall" android:key="phoneCall" android:summary="@string/contentPhoneCall" />-->
+        <!--<CheckBoxPreference android:title="@string/isCallOnAlert" android:key="callOnAlert" android:summary="@string/contentIsCall" />-->
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="login_header">40sp</dimen>
+    <dimen name="et_pad">10dp</dimen>
+    <dimen name="layout_pad">5dp</dimen>
+    <dimen name="widget_margin">4.0dip</dimen>
+    <dimen name="widget_karetka_leftmargin">0.0dip</dimen>
+</resources>

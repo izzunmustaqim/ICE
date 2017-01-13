@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutAddUpdateM"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contacts"
+        android:inputType="textCapWords" />
+
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone"
+        android:inputType="textCapWords" />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/btnDML_C"
+        style="@style/RaiseWaveColorButtonRippleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue"
+        android:text="Save"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/btnPick"
+        style="@style/RaiseWaveColorButtonRippleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue"
+        android:text="Pick"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

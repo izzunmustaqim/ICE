@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" >
+
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/editBirthDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Birth Date" />
+    <!--
+    <EditText
+        android:id="@+id/editIC"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Identity Card No"
+        android:layout_weight=".5"
+         />
+
+    <Button
+        android:id="@+id/dialog_bt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Select Date" />-->
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Height(cm)"
+         />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Weight(kg)"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:text="Blood Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        />
+
+    <!--<com.rey.material.widget.Spinner -->
+        <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_array"
+        style="@style/MenuItemRippleStyle"
+        android:prompt="@string/select"/>
+
+    <TextView
+        android:text="Your Residential Area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select2"
+        android:layout_marginBottom="30dp"/>
+
+    <!--
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label" />-->
+
+    <com.rey.material.widget.Button
+        android:id="@+id/button"
+        style="@style/RaiseWaveColorButtonRippleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue"
+        android:text="SUBMIT"
+        android:textColor="@color/color_white"
+        android:textStyle="bold" />
+
+    <!--<com.rey.material.widget.Button
+        android:id="@+id/dialog_bt_choice"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/bt_height"
+        android:layout_weight="0.4"
+        android:textColor="#FF000000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+        android:gravity="center"
+        android:text="CHOICE"
+        app:v_styleId="@array/button_raise"/> -->
+
+
+    <!--<EditText
+        android:id="@+id/editNotes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/notes"
+        android:inputType="textMultiLine" android:lines="6"/>
+
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/addAssignment"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="addAssignment"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/viewBtn"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/view" android:onClick="viewAssignments"/>
+
+    </LinearLayout> -->
+
+</LinearLayout>
